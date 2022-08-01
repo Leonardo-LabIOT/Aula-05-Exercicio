@@ -1,11 +1,13 @@
-"use strict"
+// "use strict"
 // console.log("js funcionando");
 
 const tiForm = document.querySelector(".conTitulo");
-const fomrContainer = document.querySelector(".formContainer");
 tiForm.textContent = "Hello World!!!";
+const fomrContainer = document.querySelector(".formContainer");
+// let btn = document.querySelectorAll(".boto");
+// btn = Array.from(btn);
 
-const contrato = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas voluptatem amet sit repudiandae eveniet impedit numquam odit deserunt excepturi obcaecati, \nvoluptatum minus facere perspiciatis. Odio, nostrum voluptatibus. \nDebitis, fugiat laboriosam.Lorem ipsum dolor sit \namet consectetur adipisicing elit. Voluptas voluptatem amet sit repudiandae eveniet impedit numquam odit deserunt excepturi obcaecati, \nvoluptatum minus facere perspiciatis. \nI - Odio, nostrum voluptatibus. \nII - Debitis, fugiat laboriosam.\nIII - Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas voluptatem amet sit \nrepudiandae eveniet impedit numquam odit deserunt excepturi obcaecati, voluptatum minus facere perspiciatis. Odio, nostrum voluptatibus."
+const contrato = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas voluptatem amet sit repudiandae eveniet impedit numquam odit deserunt excepturi obcaecati, \nvoluptatum minus facere perspiciatis. Odio, nostrum voluptatibus. \nDebitis, fugiat laboriosam.Lorem ipsum dolor sit \namet consectetur adipisicing elit. Voluptas voluptatem amet sit repudiandae eveniet impedit numquam odit deserunt excepturi obcaecati, \nvoluptatum minus facere perspiciatis. \nI - Odio, nostrum voluptatibus. \nII - Debitis, fugiat laboriosam.\nIII - Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas voluptatem amet sit \nrepudiandae eveniet impedit numquam odit deserunt excepturi obcaecati, voluptatum minus facere perspiciatis. Odio, nostrum voluptatibus.";
 
 const Input = {
     Nome: document.querySelector("#inputNome"),
@@ -13,6 +15,7 @@ const Input = {
     Text: document.querySelector("#termos"),
     Check: document.querySelector("#readOk"),
     Button: document.querySelectorAll(".boto")
+    // Button: btn
 }
 Input.Text.textContent = contrato;
 Input.Text.readOnly = true;
